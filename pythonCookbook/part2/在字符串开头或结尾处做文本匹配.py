@@ -24,6 +24,7 @@ print(url.startswith('http:'))
 
 
 '''
+
 输出结果依次为:
 True
 False
