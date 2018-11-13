@@ -2,7 +2,7 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="e5220c65-a225-4fc2-83ed-9680149d7ef9" name="Default Changelist" comment="">
-      <change afterPath="$PROJECT_DIR$/pythonCookbook/part2/2.5-查找和替换文本.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/pythonCookbook/part2/2.6-以不区分大小写的方式对文本做检查和替换.py" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
     </list>
     <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
@@ -14,6 +14,7 @@
   <component name="CoverageDataManager">
     <SUITE FILE_PATH="coverage/pythonCookbook$Shell.coverage" NAME="利用Shell通配符做字符串匹配 Coverage Results" MODIFIED="1542030113905" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/pythonCookbook/part2" />
     <SUITE FILE_PATH="coverage/pythonCookbook$2_5_.coverage" NAME="2.5-查找和替换文本 Coverage Results" MODIFIED="1542114454276" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/pythonCookbook/part2" />
+    <SUITE FILE_PATH="coverage/pythonCookbook$2_6_.coverage" NAME="2.6-以不区分大小写的方式对文本做检查和替换 Coverage Results" MODIFIED="1542115508304" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/pythonCookbook/part2" />
     <SUITE FILE_PATH="coverage/pythonCookbook$.coverage" NAME="文本模式的匹配和查找 Coverage Results" MODIFIED="1542033179384" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/pythonCookbook/part2" />
   </component>
   <component name="FUSProjectUsageTrigger">
@@ -31,25 +32,25 @@
       </usages-collector>
       <usages-collector id="statistics.file.extensions.open">
         <counts>
-          <entry key="py" value="5" />
+          <entry key="py" value="6" />
         </counts>
       </usages-collector>
       <usages-collector id="statistics.file.types.open">
         <counts>
-          <entry key="Python" value="5" />
+          <entry key="Python" value="6" />
         </counts>
       </usages-collector>
       <usages-collector id="statistics.file.extensions.edit">
         <counts>
           <entry key="dummy" value="18" />
-          <entry key="py" value="7665" />
-          <entry key="txt" value="112" />
+          <entry key="py" value="8495" />
+          <entry key="txt" value="119" />
         </counts>
       </usages-collector>
       <usages-collector id="statistics.file.types.edit">
         <counts>
-          <entry key="PLAIN_TEXT" value="130" />
-          <entry key="Python" value="7665" />
+          <entry key="PLAIN_TEXT" value="137" />
+          <entry key="Python" value="8495" />
         </counts>
       </usages-collector>
     </session>
@@ -57,12 +58,12 @@
   <component name="FileEditorManager">
     <leaf SIDE_TABS_SIZE_LIMIT_KEY="300">
       <file pinned="false" current-in-tab="true">
-        <entry file="file://$PROJECT_DIR$/pythonCookbook/part2/2.5-查找和替换文本.py">
+        <entry file="file://$PROJECT_DIR$/pythonCookbook/part2/2.6-以不区分大小写的方式对文本做检查和替换.py">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="378">
-              <caret line="88" column="72" selection-start-line="88" selection-start-column="72" selection-end-line="88" selection-end-column="72" />
+            <state relative-caret-position="144">
+              <caret line="54" column="3" lean-forward="true" selection-start-line="54" selection-start-column="3" selection-end-line="54" selection-end-column="3" />
               <folding>
-                <marker date="1542114587346" expanded="true" signature="932:1520" ph="..." />
+                <marker date="1542115508226" expanded="true" signature="575:1158" ph="..." />
               </folding>
             </state>
           </provider>
@@ -88,6 +89,7 @@
         <option value="$PROJECT_DIR$/pythonCookbook/part2/利用Shell通配符做字符串匹配.py" />
         <option value="$PROJECT_DIR$/pythonCookbook/part2/文本模式的匹配和查找.py" />
         <option value="$PROJECT_DIR$/pythonCookbook/part2/2.5-查找和替换文本.py" />
+        <option value="$PROJECT_DIR$/pythonCookbook/part2/2.6-以不区分大小写的方式对文本做检查和替换.py" />
       </list>
     </option>
   </component>
@@ -180,7 +182,7 @@
       </list>
     </option>
   </component>
-  <component name="RunManager" selected="Python.2.5-查找和替换文本">
+  <component name="RunManager" selected="Python.2.6-以不区分大小写的方式对文本做检查和替换">
     <configuration name="针对任意多的分隔符拆分字符串" type="PythonConfigurationType" factoryName="Python">
       <module name="pythonCookbook" />
       <option name="INTERPRETER_OPTIONS" value="" />
@@ -217,6 +219,28 @@
       <option name="ADD_SOURCE_ROOTS" value="true" />
       <EXTENSION ID="PythonCoverageRunConfigurationExtension" runner="coverage.py" />
       <option name="SCRIPT_NAME" value="$PROJECT_DIR$/pythonCookbook/part2/2.5-查找和替换文本.py" />
+      <option name="PARAMETERS" value="" />
+      <option name="SHOW_COMMAND_LINE" value="false" />
+      <option name="EMULATE_TERMINAL" value="false" />
+      <option name="MODULE_MODE" value="false" />
+      <option name="REDIRECT_INPUT" value="false" />
+      <option name="INPUT_FILE" value="" />
+      <method v="2" />
+    </configuration>
+    <configuration name="2.6-以不区分大小写的方式对文本做检查和替换" type="PythonConfigurationType" factoryName="Python" temporary="true">
+      <module name="pythonCookbook" />
+      <option name="INTERPRETER_OPTIONS" value="" />
+      <option name="PARENT_ENVS" value="true" />
+      <envs>
+        <env name="PYTHONUNBUFFERED" value="1" />
+      </envs>
+      <option name="SDK_HOME" value="" />
+      <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$/pythonCookbook/part2" />
+      <option name="IS_MODULE_SDK" value="true" />
+      <option name="ADD_CONTENT_ROOTS" value="true" />
+      <option name="ADD_SOURCE_ROOTS" value="true" />
+      <EXTENSION ID="PythonCoverageRunConfigurationExtension" runner="coverage.py" />
+      <option name="SCRIPT_NAME" value="$PROJECT_DIR$/pythonCookbook/part2/2.6-以不区分大小写的方式对文本做检查和替换.py" />
       <option name="PARAMETERS" value="" />
       <option name="SHOW_COMMAND_LINE" value="false" />
       <option name="EMULATE_TERMINAL" value="false" />
@@ -295,9 +319,11 @@
       <item itemvalue="Python.针对任意多的分隔符拆分字符串" />
       <item itemvalue="Python.利用Shell通配符做字符串匹配" />
       <item itemvalue="Python.2.5-查找和替换文本" />
+      <item itemvalue="Python.2.6-以不区分大小写的方式对文本做检查和替换" />
     </list>
     <recent_temporary>
       <list>
+        <item itemvalue="Python.2.6-以不区分大小写的方式对文本做检查和替换" />
         <item itemvalue="Python.2.5-查找和替换文本" />
         <item itemvalue="Python.利用Shell通配符做字符串匹配" />
       </list>
@@ -349,7 +375,14 @@
       <option name="project" value="LOCAL" />
       <updated>1542033546871</updated>
     </task>
-    <option name="localTasksCounter" value="6" />
+    <task id="LOCAL-00006" summary="查找和替换文本">
+      <created>1542114621277</created>
+      <option name="number" value="00006" />
+      <option name="presentableId" value="LOCAL-00006" />
+      <option name="project" value="LOCAL" />
+      <updated>1542114621277</updated>
+    </task>
+    <option name="localTasksCounter" value="7" />
     <servers />
   </component>
   <component name="ToolWindowManager">
@@ -360,7 +393,7 @@
       <window_info id="Favorites" order="2" side_tool="true" />
       <window_info anchor="bottom" id="Message" order="0" />
       <window_info anchor="bottom" id="Find" order="1" />
-      <window_info anchor="bottom" id="Run" order="2" weight="0.32991454" />
+      <window_info active="true" anchor="bottom" id="Run" order="2" visible="true" weight="0.32991454" />
       <window_info anchor="bottom" id="Debug" order="3" weight="0.4" />
       <window_info anchor="bottom" id="Cvs" order="4" weight="0.25" />
       <window_info anchor="bottom" id="Inspection" order="5" weight="0.4" />
@@ -390,7 +423,8 @@
     <MESSAGE value="利用Shell通配符做字符串匹配" />
     <MESSAGE value="文本模式的匹配和查找" />
     <MESSAGE value="添加文件名称前缀" />
-    <option name="LAST_COMMIT_MESSAGE" value="添加文件名称前缀" />
+    <MESSAGE value="查找和替换文本" />
+    <option name="LAST_COMMIT_MESSAGE" value="查找和替换文本" />
   </component>
   <component name="editorHistoryManager">
     <entry file="file://$PROJECT_DIR$/pythonCookbook/part2/2.1-针对任意多的分隔符拆分字符串.py">
@@ -424,9 +458,19 @@
     <entry file="file://$PROJECT_DIR$/pythonCookbook/part2/2.5-查找和替换文本.py">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="378">
-          <caret line="88" column="72" selection-start-line="88" selection-start-column="72" selection-end-line="88" selection-end-column="72" />
+          <caret line="88" column="58" selection-start-line="88" selection-start-column="58" selection-end-line="88" selection-end-column="58" />
           <folding>
             <marker date="1542114587346" expanded="true" signature="932:1520" ph="..." />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/pythonCookbook/part2/2.6-以不区分大小写的方式对文本做检查和替换.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="144">
+          <caret line="54" column="3" lean-forward="true" selection-start-line="54" selection-start-column="3" selection-end-line="54" selection-end-column="3" />
+          <folding>
+            <marker date="1542115508226" expanded="true" signature="575:1158" ph="..." />
           </folding>
         </state>
       </provider>
