@@ -56,7 +56,8 @@ UPPER SNAKE, lower snake, Mixed Snake
 
 '''
 讨论:
-对于简单的情况,只需要加上re.IGNORECASE标记就足以进行不区分大小写的匹配操作了.但请注意的是这对于某些涉及大写转换(case folding)的Unicode匹配来说可能是不够的.细节参见2.10-用正则表达式处理Unicode字符
+对于简单的情况,只需要加上re.IGNORECASE标记就足以进行不区分大小写的匹配操作了.但请注意的是这对于某些涉及大写转换(case 
+folding)的Unicode匹配来说可能是不够的.细节参见2.10-用正则表达式处理Unicode字符
     '''
 
 
