@@ -2,7 +2,7 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="e5220c65-a225-4fc2-83ed-9680149d7ef9" name="Default Changelist" comment="">
-      <change afterPath="$PROJECT_DIR$/pythonCookbook/part2/2.16-以固定的列数重新格式化文本.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/pythonCookbook/part2/2.17-在文本处理HTML和XML实体.py" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
     </list>
     <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
@@ -17,6 +17,7 @@
     <SUITE FILE_PATH="coverage/pythonCookbook$2_10_Unicode.coverage" NAME="2.10-用正则表达式处理Unicode字符 Coverage Results" MODIFIED="1542379058277" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/pythonCookbook/part2" />
     <SUITE FILE_PATH="coverage/pythonCookbook$2_16_.coverage" NAME="2.16-以固定的列数重新格式化文本 Coverage Results" MODIFIED="1542717986521" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/pythonCookbook/part2" />
     <SUITE FILE_PATH="coverage/pythonCookbook$2_11_.coverage" NAME="2.11-从字符串中去掉不需要的字符 Coverage Results" MODIFIED="1542460687780" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/pythonCookbook/part2" />
+    <SUITE FILE_PATH="coverage/pythonCookbook$2_17_HTMLXML.coverage" NAME="2.17-在文本处理HTML和XML实体 Coverage Results" MODIFIED="1542720089507" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/pythonCookbook/part2" />
     <SUITE FILE_PATH="coverage/pythonCookbook$Shell.coverage" NAME="利用Shell通配符做字符串匹配 Coverage Results" MODIFIED="1542030113905" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/pythonCookbook/part2" />
     <SUITE FILE_PATH="coverage/pythonCookbook$2_7_.coverage" NAME="2.7-定义实现最短匹配的正则表达式 Coverage Results" MODIFIED="1542116910900" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/pythonCookbook/part2" />
     <SUITE FILE_PATH="coverage/pythonCookbook$2_8_.coverage" NAME="2.8-编写匹配多行模式的正则表达式 Coverage Results" MODIFIED="1542205203402" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/pythonCookbook/part2" />
@@ -43,26 +44,26 @@
       </usages-collector>
       <usages-collector id="statistics.file.extensions.open">
         <counts>
-          <entry key="py" value="17" />
+          <entry key="py" value="23" />
         </counts>
       </usages-collector>
       <usages-collector id="statistics.file.types.open">
         <counts>
-          <entry key="Python" value="17" />
+          <entry key="Python" value="23" />
         </counts>
       </usages-collector>
       <usages-collector id="statistics.file.extensions.edit">
         <counts>
           <entry key="Python Console" value="15" />
           <entry key="dummy" value="18" />
-          <entry key="py" value="19815" />
-          <entry key="txt" value="236" />
+          <entry key="py" value="20917" />
+          <entry key="txt" value="249" />
         </counts>
       </usages-collector>
       <usages-collector id="statistics.file.types.edit">
         <counts>
-          <entry key="PLAIN_TEXT" value="254" />
-          <entry key="Python" value="19830" />
+          <entry key="PLAIN_TEXT" value="267" />
+          <entry key="Python" value="20932" />
         </counts>
       </usages-collector>
     </session>
@@ -70,10 +71,19 @@
   <component name="FileEditorManager">
     <leaf SIDE_TABS_SIZE_LIMIT_KEY="300">
       <file pinned="false" current-in-tab="true">
-        <entry file="file://$PROJECT_DIR$/pythonCookbook/part2/2.16-以固定的列数重新格式化文本.py">
+        <entry file="file://$PROJECT_DIR$/pythonCookbook/part2/2.17-在文本处理HTML和XML实体.py">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="210">
-              <caret line="75" column="3" lean-forward="true" selection-start-line="75" selection-start-column="3" selection-end-line="75" selection-end-column="3" />
+            <state relative-caret-position="245">
+              <caret line="70" column="68" selection-start-line="70" selection-start-column="68" selection-end-line="70" selection-end-column="68" />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/pythonCookbook/part2/2.9-将Unicode文本统一表示为规范形式.py">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="242">
+              <caret line="28" column="7" lean-forward="true" selection-start-line="28" selection-start-column="7" selection-end-line="28" selection-end-column="7" />
             </state>
           </provider>
         </entry>
@@ -108,6 +118,7 @@
         <option value="$PROJECT_DIR$/pythonCookbook/part2/2.14-字符串连接及合并.py" />
         <option value="$PROJECT_DIR$/pythonCookbook/part2/2.15-给字符串中的变量名做插值处理.py" />
         <option value="$PROJECT_DIR$/pythonCookbook/part2/2.16-以固定的列数重新格式化文本.py" />
+        <option value="$PROJECT_DIR$/pythonCookbook/part2/2.17-在文本处理HTML和XML实体.py" />
       </list>
     </option>
   </component>
@@ -168,6 +179,13 @@
               <item name="pythonCookbook" type="462c0819:PsiDirectoryNode" />
               <item name="part2" type="462c0819:PsiDirectoryNode" />
             </path>
+            <path>
+              <item name="pythonCookbook" type="b2602c69:ProjectViewProjectNode" />
+              <item name="pythonCookbook" type="462c0819:PsiDirectoryNode" />
+              <item name="pythonCookbook" type="462c0819:PsiDirectoryNode" />
+              <item name="part2" type="462c0819:PsiDirectoryNode" />
+              <item name="2.12-文本过滤和清理.py" type="8704e2dd:PyFileNode" />
+            </path>
           </expand>
           <select />
         </subPane>
@@ -201,7 +219,7 @@
       </list>
     </option>
   </component>
-  <component name="RunManager" selected="Python.2.16-以固定的列数重新格式化文本">
+  <component name="RunManager" selected="Python.2.17-在文本处理HTML和XML实体">
     <configuration name="针对任意多的分隔符拆分字符串" type="PythonConfigurationType" factoryName="Python">
       <module name="pythonCookbook" />
       <option name="INTERPRETER_OPTIONS" value="" />
@@ -216,28 +234,6 @@
       <option name="ADD_SOURCE_ROOTS" value="true" />
       <EXTENSION ID="PythonCoverageRunConfigurationExtension" runner="coverage.py" />
       <option name="SCRIPT_NAME" value="E:\pythonCookbook\pythonCookbook\part2\2.1-针对任意多的分隔符拆分字符串.py" />
-      <option name="PARAMETERS" value="" />
-      <option name="SHOW_COMMAND_LINE" value="false" />
-      <option name="EMULATE_TERMINAL" value="false" />
-      <option name="MODULE_MODE" value="false" />
-      <option name="REDIRECT_INPUT" value="false" />
-      <option name="INPUT_FILE" value="" />
-      <method v="2" />
-    </configuration>
-    <configuration name="2.11-从字符串中去掉不需要的字符" type="PythonConfigurationType" factoryName="Python" temporary="true">
-      <module name="pythonCookbook" />
-      <option name="INTERPRETER_OPTIONS" value="" />
-      <option name="PARENT_ENVS" value="true" />
-      <envs>
-        <env name="PYTHONUNBUFFERED" value="1" />
-      </envs>
-      <option name="SDK_HOME" value="" />
-      <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$/pythonCookbook/part2" />
-      <option name="IS_MODULE_SDK" value="true" />
-      <option name="ADD_CONTENT_ROOTS" value="true" />
-      <option name="ADD_SOURCE_ROOTS" value="true" />
-      <EXTENSION ID="PythonCoverageRunConfigurationExtension" runner="coverage.py" />
-      <option name="SCRIPT_NAME" value="$PROJECT_DIR$/pythonCookbook/part2/2.11-从字符串中去掉不需要的字符.py" />
       <option name="PARAMETERS" value="" />
       <option name="SHOW_COMMAND_LINE" value="false" />
       <option name="EMULATE_TERMINAL" value="false" />
@@ -334,6 +330,28 @@
       <option name="INPUT_FILE" value="" />
       <method v="2" />
     </configuration>
+    <configuration name="2.17-在文本处理HTML和XML实体" type="PythonConfigurationType" factoryName="Python" temporary="true">
+      <module name="pythonCookbook" />
+      <option name="INTERPRETER_OPTIONS" value="" />
+      <option name="PARENT_ENVS" value="true" />
+      <envs>
+        <env name="PYTHONUNBUFFERED" value="1" />
+      </envs>
+      <option name="SDK_HOME" value="" />
+      <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$/pythonCookbook/part2" />
+      <option name="IS_MODULE_SDK" value="true" />
+      <option name="ADD_CONTENT_ROOTS" value="true" />
+      <option name="ADD_SOURCE_ROOTS" value="true" />
+      <EXTENSION ID="PythonCoverageRunConfigurationExtension" runner="coverage.py" />
+      <option name="SCRIPT_NAME" value="E:\pythonCookbook\pythonCookbook\part2\2.17-在文本处理中HTML和XML实体.py" />
+      <option name="PARAMETERS" value="" />
+      <option name="SHOW_COMMAND_LINE" value="false" />
+      <option name="EMULATE_TERMINAL" value="false" />
+      <option name="MODULE_MODE" value="false" />
+      <option name="REDIRECT_INPUT" value="false" />
+      <option name="INPUT_FILE" value="" />
+      <method v="2" />
+    </configuration>
     <configuration name="文本模式的匹配和查找" type="PythonConfigurationType" factoryName="Python" temporary="true">
       <module name="pythonCookbook" />
       <option name="INTERPRETER_OPTIONS" value="" />
@@ -380,19 +398,19 @@
     </configuration>
     <list>
       <item itemvalue="Python.针对任意多的分隔符拆分字符串" />
-      <item itemvalue="Python.2.11-从字符串中去掉不需要的字符" />
       <item itemvalue="Python.2.13-对齐文本字符串" />
       <item itemvalue="Python.2.14-字符串连接及合并" />
       <item itemvalue="Python.2.15-给字符串中的变量名做插值处理" />
       <item itemvalue="Python.2.16-以固定的列数重新格式化文本" />
+      <item itemvalue="Python.2.17-在文本处理HTML和XML实体" />
     </list>
     <recent_temporary>
       <list>
+        <item itemvalue="Python.2.17-在文本处理HTML和XML实体" />
         <item itemvalue="Python.2.16-以固定的列数重新格式化文本" />
         <item itemvalue="Python.2.15-给字符串中的变量名做插值处理" />
         <item itemvalue="Python.2.14-字符串连接及合并" />
         <item itemvalue="Python.2.13-对齐文本字符串" />
-        <item itemvalue="Python.2.11-从字符串中去掉不需要的字符" />
       </list>
     </recent_temporary>
   </component>
@@ -512,7 +530,14 @@
       <option name="project" value="LOCAL" />
       <updated>1542640112644</updated>
     </task>
-    <option name="localTasksCounter" value="16" />
+    <task id="LOCAL-00016" summary="以固定的列数重新格式化文本">
+      <created>1542718681838</created>
+      <option name="number" value="00016" />
+      <option name="presentableId" value="LOCAL-00016" />
+      <option name="project" value="LOCAL" />
+      <updated>1542718681838</updated>
+    </task>
+    <option name="localTasksCounter" value="17" />
     <servers />
   </component>
   <component name="ToolWindowManager">
@@ -524,7 +549,7 @@
       <window_info id="Favorites" order="2" side_tool="true" />
       <window_info anchor="bottom" id="Message" order="0" />
       <window_info anchor="bottom" id="Find" order="1" />
-      <window_info anchor="bottom" id="Run" order="2" sideWeight="0.49848714" weight="0.42051283" />
+      <window_info active="true" anchor="bottom" id="Run" order="2" sideWeight="0.49848714" visible="true" weight="0.42051283" />
       <window_info anchor="bottom" id="Debug" order="3" weight="0.4" />
       <window_info anchor="bottom" id="Cvs" order="4" weight="0.25" />
       <window_info anchor="bottom" id="Inspection" order="5" weight="0.4" />
@@ -533,7 +558,7 @@
       <window_info anchor="bottom" id="Version Control" order="8" sideWeight="0.49924356" weight="0.32991454" />
       <window_info anchor="bottom" id="Database Changes" order="9" show_stripe_button="false" />
       <window_info anchor="bottom" id="Event Log" order="10" sideWeight="0.5015129" side_tool="true" weight="0.32991454" />
-      <window_info active="true" anchor="bottom" id="Terminal" order="11" visible="true" weight="0.32991454" />
+      <window_info anchor="bottom" id="Terminal" order="11" weight="0.32991454" />
       <window_info anchor="bottom" id="Python Console" order="12" sideWeight="0.49848714" weight="0.94017094" />
       <window_info anchor="right" id="Commander" internal_type="SLIDING" order="0" type="SLIDING" weight="0.4" />
       <window_info anchor="right" id="Ant Build" order="1" weight="0.25" />
@@ -564,7 +589,8 @@
     <MESSAGE value="对齐文本字符串" />
     <MESSAGE value="字符串连接及合并" />
     <MESSAGE value="给字符串中的变量名做插值处理" />
-    <option name="LAST_COMMIT_MESSAGE" value="给字符串中的变量名做插值处理" />
+    <MESSAGE value="以固定的列数重新格式化文本" />
+    <option name="LAST_COMMIT_MESSAGE" value="以固定的列数重新格式化文本" />
   </component>
   <component name="editorHistoryManager">
     <entry file="file://$PROJECT_DIR$/pythonCookbook/part2/2.1-针对任意多的分隔符拆分字符串.py">
@@ -623,31 +649,10 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/pythonCookbook/part2/2.9-将Unicode文本统一表示为规范形式.py">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="210">
-          <caret line="107" column="26" selection-start-line="107" selection-start-column="26" selection-end-line="107" selection-end-column="26" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/pythonCookbook/part2/2.10-用正则表达式处理Unicode字符.py">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="382">
-          <caret line="64" column="10" lean-forward="true" selection-start-line="64" selection-start-column="10" selection-end-line="64" selection-end-column="10" />
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$USER_HOME$/.PyCharm2018.2/system/python_stubs/-1104749448/builtins.py">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="144">
           <caret line="339" column="4" selection-start-line="339" selection-start-column="4" selection-end-line="339" selection-end-column="4" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/pythonCookbook/part2/2.11-从字符串中去掉不需要的字符.py">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="144">
-          <caret line="98" column="5" selection-start-line="98" selection-start-column="5" selection-end-line="98" selection-end-column="5" />
         </state>
       </provider>
     </entry>
@@ -679,8 +684,41 @@
     </entry>
     <entry file="file://$PROJECT_DIR$/pythonCookbook/part2/2.16-以固定的列数重新格式化文本.py">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="210">
+        <state relative-caret-position="403">
           <caret line="75" column="3" lean-forward="true" selection-start-line="75" selection-start-column="3" selection-end-line="75" selection-end-column="3" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/pythonCookbook/part2/2.11-从字符串中去掉不需要的字符.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="1813">
+          <caret line="98" column="5" selection-start-line="98" selection-start-column="5" selection-end-line="98" selection-end-column="5" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/pythonCookbook/part2/2.12-文本过滤和清理.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="-2435" />
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/pythonCookbook/part2/2.10-用正则表达式处理Unicode字符.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="1452">
+          <caret line="64" column="10" lean-forward="true" selection-start-line="64" selection-start-column="10" selection-end-line="64" selection-end-column="10" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/pythonCookbook/part2/2.9-将Unicode文本统一表示为规范形式.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="242">
+          <caret line="28" column="7" lean-forward="true" selection-start-line="28" selection-start-column="7" selection-end-line="28" selection-end-column="7" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/pythonCookbook/part2/2.17-在文本处理HTML和XML实体.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="245">
+          <caret line="70" column="68" selection-start-line="70" selection-start-column="68" selection-end-line="70" selection-end-column="68" />
         </state>
       </provider>
     </entry>
