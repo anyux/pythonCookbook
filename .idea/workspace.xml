@@ -2,7 +2,8 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="e5220c65-a225-4fc2-83ed-9680149d7ef9" name="Default Changelist" comment="">
-      <change afterPath="$PROJECT_DIR$/pythonCookbook/part2/2.19-编写一个简单的递归下降解析器.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/pythonCookbook/part1/1.2从任意长度的可迭代对象中分解元素.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/pythonCookbook/part1/README.txt" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
     </list>
     <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
@@ -20,10 +21,12 @@
     <SUITE FILE_PATH="coverage/pythonCookbook$2_17_HTMLXML.coverage" NAME="2.17-在文本处理HTML和XML实体 Coverage Results" MODIFIED="1542720089507" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/pythonCookbook/part2" />
     <SUITE FILE_PATH="coverage/pythonCookbook$Shell.coverage" NAME="利用Shell通配符做字符串匹配 Coverage Results" MODIFIED="1542030113905" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/pythonCookbook/part2" />
     <SUITE FILE_PATH="coverage/pythonCookbook$2_7_.coverage" NAME="2.7-定义实现最短匹配的正则表达式 Coverage Results" MODIFIED="1542116910900" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/pythonCookbook/part2" />
+    <SUITE FILE_PATH="coverage/pythonCookbook$1_2.coverage" NAME="1.2从任意长度的可迭代对象中分解元素 Coverage Results" MODIFIED="1542981471853" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/pythonCookbook/part1" />
     <SUITE FILE_PATH="coverage/pythonCookbook$2_8_.coverage" NAME="2.8-编写匹配多行模式的正则表达式 Coverage Results" MODIFIED="1542205203402" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/pythonCookbook/part2" />
     <SUITE FILE_PATH="coverage/pythonCookbook$2_18_.coverage" NAME="2.18-文本分词 Coverage Results" MODIFIED="1542809494814" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/pythonCookbook/part2" />
     <SUITE FILE_PATH="coverage/pythonCookbook$2_5_.coverage" NAME="2.5-查找和替换文本 Coverage Results" MODIFIED="1542114454276" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/pythonCookbook/part2" />
     <SUITE FILE_PATH="coverage/pythonCookbook$2_15_.coverage" NAME="2.15-给字符串中的变量名做插值处理 Coverage Results" MODIFIED="1542639553865" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/pythonCookbook/part2" />
+    <SUITE FILE_PATH="coverage/pythonCookbook$1_1_.coverage" NAME="1.1-将序列分解为单独的变量 Coverage Results" MODIFIED="1542893355494" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/pythonCookbook/part1" />
     <SUITE FILE_PATH="coverage/pythonCookbook$2_6_.coverage" NAME="2.6-以不区分大小写的方式对文本做检查和替换 Coverage Results" MODIFIED="1542115508304" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/pythonCookbook/part2" />
     <SUITE FILE_PATH="coverage/pythonCookbook$2_14_.coverage" NAME="2.14-字符串连接及合并 Coverage Results" MODIFIED="1542636629580" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/pythonCookbook/part2" />
     <SUITE FILE_PATH="coverage/pythonCookbook$.coverage" NAME="文本模式的匹配和查找 Coverage Results" MODIFIED="1542033179384" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/pythonCookbook/part2" />
@@ -32,41 +35,44 @@
     <session id="1535147010">
       <usages-collector id="statistics.lifecycle.project">
         <counts>
-          <entry key="project.closed" value="11" />
+          <entry key="project.closed" value="12" />
           <entry key="project.open.time.1" value="1" />
           <entry key="project.open.time.2" value="1" />
           <entry key="project.open.time.26" value="3" />
           <entry key="project.open.time.28" value="2" />
           <entry key="project.open.time.30" value="2" />
+          <entry key="project.open.time.31" value="1" />
           <entry key="project.open.time.34" value="1" />
           <entry key="project.open.time.39" value="1" />
           <entry key="project.open.time.7" value="1" />
           <entry key="project.open.time.8" value="1" />
-          <entry key="project.opened" value="13" />
+          <entry key="project.opened" value="14" />
         </counts>
       </usages-collector>
       <usages-collector id="statistics.file.extensions.open">
         <counts>
-          <entry key="py" value="25" />
+          <entry key="py" value="27" />
+          <entry key="txt" value="1" />
         </counts>
       </usages-collector>
       <usages-collector id="statistics.file.types.open">
         <counts>
-          <entry key="Python" value="25" />
+          <entry key="PLAIN_TEXT" value="1" />
+          <entry key="Python" value="27" />
         </counts>
       </usages-collector>
       <usages-collector id="statistics.file.extensions.edit">
         <counts>
           <entry key="Python Console" value="15" />
           <entry key="dummy" value="19" />
-          <entry key="py" value="23903" />
-          <entry key="txt" value="274" />
+          <entry key="py" value="27401" />
+          <entry key="txt" value="494" />
         </counts>
       </usages-collector>
       <usages-collector id="statistics.file.types.edit">
         <counts>
-          <entry key="PLAIN_TEXT" value="293" />
-          <entry key="Python" value="23918" />
+          <entry key="PLAIN_TEXT" value="513" />
+          <entry key="Python" value="27416" />
         </counts>
       </usages-collector>
     </session>
@@ -74,10 +80,16 @@
   <component name="FileEditorManager">
     <leaf SIDE_TABS_SIZE_LIMIT_KEY="300">
       <file pinned="false" current-in-tab="true">
-        <entry file="file://$PROJECT_DIR$/pythonCookbook/part2/2.19-编写一个简单的递归下降解析器.py">
+        <entry file="file://$PROJECT_DIR$/pythonCookbook/part1/1.2从任意长度的可迭代对象中分解元素.py">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="491">
-              <caret line="21" column="12" selection-start-line="21" selection-start-column="12" selection-end-line="21" selection-end-column="12" />
+            <state relative-caret-position="179">
+              <caret line="167" lean-forward="true" selection-start-line="167" selection-end-line="167" />
+              <folding>
+                <marker date="1542981549758" expanded="true" signature="352:436" ph="..." />
+                <marker date="1542981549758" expanded="true" signature="465:595" ph="..." />
+                <marker date="1542981549758" expanded="true" signature="1406:2028" ph="..." />
+                <marker date="1542981549758" expanded="true" signature="2857:3046" ph="..." />
+              </folding>
             </state>
           </provider>
         </entry>
@@ -93,6 +105,9 @@
   </component>
   <component name="Git.Settings">
     <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$" />
+  </component>
+  <component name="GithubDefaultAccount">
+    <option name="defaultAccountId" value="d4934bae-1d58-4b75-9d1c-ba46fde4186c" />
   </component>
   <component name="IdeDocumentHistory">
     <option name="CHANGED_PATHS">
@@ -115,6 +130,9 @@
         <option value="$PROJECT_DIR$/pythonCookbook/part2/2.17-在文本处理HTML和XML实体.py" />
         <option value="$PROJECT_DIR$/pythonCookbook/part2/2.18-文本分词.py" />
         <option value="$PROJECT_DIR$/pythonCookbook/part2/2.19-编写一个简单的递归下降解析器.py" />
+        <option value="$PROJECT_DIR$/pythonCookbook/part1/README.txt" />
+        <option value="$PROJECT_DIR$/pythonCookbook/part1/1.1-将序列分解为单独的变量.py" />
+        <option value="$PROJECT_DIR$/pythonCookbook/part1/1.2从任意长度的可迭代对象中分解元素.py" />
       </list>
     </option>
   </component>
@@ -157,7 +175,6 @@
       <foldersAlwaysOnTop value="true" />
     </navigator>
     <panes>
-      <pane id="Scope" />
       <pane id="ProjectPane">
         <subPane>
           <expand>
@@ -170,10 +187,24 @@
               <item name="pythonCookbook" type="462c0819:PsiDirectoryNode" />
               <item name="pythonCookbook" type="462c0819:PsiDirectoryNode" />
             </path>
+            <path>
+              <item name="pythonCookbook" type="b2602c69:ProjectViewProjectNode" />
+              <item name="pythonCookbook" type="462c0819:PsiDirectoryNode" />
+              <item name="pythonCookbook" type="462c0819:PsiDirectoryNode" />
+              <item name="part1" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="pythonCookbook" type="b2602c69:ProjectViewProjectNode" />
+              <item name="pythonCookbook" type="462c0819:PsiDirectoryNode" />
+              <item name="pythonCookbook" type="462c0819:PsiDirectoryNode" />
+              <item name="part1" type="462c0819:PsiDirectoryNode" />
+              <item name="1.2从任意长度的可迭代对象中分解元素.py" type="8704e2dd:PyFileNode" />
+            </path>
           </expand>
           <select />
         </subPane>
       </pane>
+      <pane id="Scope" />
     </panes>
   </component>
   <component name="PropertiesComponent">
@@ -181,7 +212,7 @@
     <property name="last_opened_file_path" value="$PROJECT_DIR$" />
     <property name="nodejs_interpreter_path.stuck_in_default_project" value="undefined stuck path" />
     <property name="nodejs_npm_path_reset_for_default_project" value="true" />
-    <property name="settings.editor.selected.configurable" value="com.jetbrains.python.configuration.PyActiveSdkModuleConfigurable" />
+    <property name="settings.editor.selected.configurable" value="reference.settingsdialog.IDE.editor.colors.Python" />
   </component>
   <component name="PyConsoleOptionsProvider">
     <option name="myPythonConsoleState">
@@ -202,7 +233,7 @@
       </list>
     </option>
   </component>
-  <component name="RunManager" selected="Python.2.18-文本分词">
+  <component name="RunManager" selected="Python.1.2从任意长度的可迭代对象中分解元素">
     <configuration name="针对任意多的分隔符拆分字符串" type="PythonConfigurationType" factoryName="Python">
       <module name="pythonCookbook" />
       <option name="INTERPRETER_OPTIONS" value="" />
@@ -225,7 +256,7 @@
       <option name="INPUT_FILE" value="" />
       <method v="2" />
     </configuration>
-    <configuration name="2.14-字符串连接及合并" type="PythonConfigurationType" factoryName="Python" temporary="true">
+    <configuration name="1.1-将序列分解为单独的变量" type="PythonConfigurationType" factoryName="Python" temporary="true">
       <module name="pythonCookbook" />
       <option name="INTERPRETER_OPTIONS" value="" />
       <option name="PARENT_ENVS" value="true" />
@@ -233,12 +264,12 @@
         <env name="PYTHONUNBUFFERED" value="1" />
       </envs>
       <option name="SDK_HOME" value="" />
-      <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$/pythonCookbook/part2" />
+      <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$/pythonCookbook/part1" />
       <option name="IS_MODULE_SDK" value="true" />
       <option name="ADD_CONTENT_ROOTS" value="true" />
       <option name="ADD_SOURCE_ROOTS" value="true" />
       <EXTENSION ID="PythonCoverageRunConfigurationExtension" runner="coverage.py" />
-      <option name="SCRIPT_NAME" value="$PROJECT_DIR$/pythonCookbook/part2/2.14-字符串连接及合并.py" />
+      <option name="SCRIPT_NAME" value="$PROJECT_DIR$/pythonCookbook/part1/1.1-将序列分解为单独的变量.py" />
       <option name="PARAMETERS" value="" />
       <option name="SHOW_COMMAND_LINE" value="false" />
       <option name="EMULATE_TERMINAL" value="false" />
@@ -247,7 +278,7 @@
       <option name="INPUT_FILE" value="" />
       <method v="2" />
     </configuration>
-    <configuration name="2.15-给字符串中的变量名做插值处理" type="PythonConfigurationType" factoryName="Python" temporary="true">
+    <configuration name="1.2从任意长度的可迭代对象中分解元素" type="PythonConfigurationType" factoryName="Python" temporary="true">
       <module name="pythonCookbook" />
       <option name="INTERPRETER_OPTIONS" value="" />
       <option name="PARENT_ENVS" value="true" />
@@ -255,12 +286,12 @@
         <env name="PYTHONUNBUFFERED" value="1" />
       </envs>
       <option name="SDK_HOME" value="" />
-      <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$/pythonCookbook/part2" />
+      <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$/pythonCookbook/part1" />
       <option name="IS_MODULE_SDK" value="true" />
       <option name="ADD_CONTENT_ROOTS" value="true" />
       <option name="ADD_SOURCE_ROOTS" value="true" />
       <EXTENSION ID="PythonCoverageRunConfigurationExtension" runner="coverage.py" />
-      <option name="SCRIPT_NAME" value="$PROJECT_DIR$/pythonCookbook/part2/2.15-给字符串中的变量名做插值处理.py" />
+      <option name="SCRIPT_NAME" value="$PROJECT_DIR$/pythonCookbook/part1/1.2从任意长度的可迭代对象中分解元素.py" />
       <option name="PARAMETERS" value="" />
       <option name="SHOW_COMMAND_LINE" value="false" />
       <option name="EMULATE_TERMINAL" value="false" />
@@ -381,19 +412,19 @@
     </configuration>
     <list>
       <item itemvalue="Python.针对任意多的分隔符拆分字符串" />
-      <item itemvalue="Python.2.14-字符串连接及合并" />
-      <item itemvalue="Python.2.15-给字符串中的变量名做插值处理" />
       <item itemvalue="Python.2.16-以固定的列数重新格式化文本" />
       <item itemvalue="Python.2.17-在文本处理HTML和XML实体" />
       <item itemvalue="Python.2.18-文本分词" />
+      <item itemvalue="Python.1.1-将序列分解为单独的变量" />
+      <item itemvalue="Python.1.2从任意长度的可迭代对象中分解元素" />
     </list>
     <recent_temporary>
       <list>
+        <item itemvalue="Python.1.2从任意长度的可迭代对象中分解元素" />
+        <item itemvalue="Python.1.1-将序列分解为单独的变量" />
         <item itemvalue="Python.2.18-文本分词" />
         <item itemvalue="Python.2.17-在文本处理HTML和XML实体" />
         <item itemvalue="Python.2.16-以固定的列数重新格式化文本" />
-        <item itemvalue="Python.2.15-给字符串中的变量名做插值处理" />
-        <item itemvalue="Python.2.14-字符串连接及合并" />
       </list>
     </recent_temporary>
   </component>
@@ -534,7 +565,21 @@
       <option name="project" value="LOCAL" />
       <updated>1542809730995</updated>
     </task>
-    <option name="localTasksCounter" value="19" />
+    <task id="LOCAL-00019" summary="未完成">
+      <created>1542891882606</created>
+      <option name="number" value="00019" />
+      <option name="presentableId" value="LOCAL-00019" />
+      <option name="project" value="LOCAL" />
+      <updated>1542891882606</updated>
+    </task>
+    <task id="LOCAL-00020" summary="将序列分解为单独的变量">
+      <created>1542893429485</created>
+      <option name="number" value="00020" />
+      <option name="presentableId" value="LOCAL-00020" />
+      <option name="project" value="LOCAL" />
+      <updated>1542893429485</updated>
+    </task>
+    <option name="localTasksCounter" value="21" />
     <servers />
   </component>
   <component name="ToolWindowManager">
@@ -546,7 +591,7 @@
       <window_info id="Favorites" order="2" side_tool="true" />
       <window_info anchor="bottom" id="Message" order="0" />
       <window_info anchor="bottom" id="Find" order="1" />
-      <window_info anchor="bottom" id="Run" order="2" sideWeight="0.49848714" weight="0.42051283" />
+      <window_info active="true" anchor="bottom" id="Run" order="2" sideWeight="0.49848714" visible="true" weight="0.42051283" />
       <window_info anchor="bottom" id="Debug" order="3" weight="0.4" />
       <window_info anchor="bottom" id="Cvs" order="4" weight="0.25" />
       <window_info anchor="bottom" id="Inspection" order="5" weight="0.4" />
@@ -589,7 +634,9 @@
     <MESSAGE value="以固定的列数重新格式化文本" />
     <MESSAGE value="在文本中处理HTML和XML实体" />
     <MESSAGE value="文本分词" />
-    <option name="LAST_COMMIT_MESSAGE" value="文本分词" />
+    <MESSAGE value="未完成" />
+    <MESSAGE value="将序列分解为单独的变量" />
+    <option name="LAST_COMMIT_MESSAGE" value="将序列分解为单独的变量" />
   </component>
   <component name="editorHistoryManager">
     <entry file="file://$PROJECT_DIR$/pythonCookbook/part2/2.1-针对任意多的分隔符拆分字符串.py">
@@ -720,16 +767,40 @@
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="447">
           <caret line="182" column="51" selection-start-line="182" selection-start-column="51" selection-end-line="182" selection-end-column="51" />
-          <folding>
-            <marker date="1542809708939" expanded="true" signature="2034:2231" ph="..." />
-          </folding>
         </state>
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/pythonCookbook/part2/2.19-编写一个简单的递归下降解析器.py">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="491">
-          <caret line="21" column="12" selection-start-line="21" selection-start-column="12" selection-end-line="21" selection-end-column="12" />
+        <state relative-caret-position="22">
+          <caret line="9" lean-forward="true" selection-start-line="9" selection-end-line="9" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/pythonCookbook/part1/README.txt">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="88">
+          <caret line="1" column="181" lean-forward="true" selection-start-line="1" selection-start-column="181" selection-end-line="1" selection-end-column="181" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/pythonCookbook/part1/1.1-将序列分解为单独的变量.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="91">
+          <caret line="77" column="12" selection-start-line="77" selection-start-column="12" selection-end-line="77" selection-end-column="12" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/pythonCookbook/part1/1.2从任意长度的可迭代对象中分解元素.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="179">
+          <caret line="167" lean-forward="true" selection-start-line="167" selection-end-line="167" />
+          <folding>
+            <marker date="1542981549758" expanded="true" signature="352:436" ph="..." />
+            <marker date="1542981549758" expanded="true" signature="465:595" ph="..." />
+            <marker date="1542981549758" expanded="true" signature="1406:2028" ph="..." />
+            <marker date="1542981549758" expanded="true" signature="2857:3046" ph="..." />
+          </folding>
         </state>
       </provider>
     </entry>
