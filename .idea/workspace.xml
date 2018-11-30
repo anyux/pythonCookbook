@@ -2,7 +2,7 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="e5220c65-a225-4fc2-83ed-9680149d7ef9" name="Default Changelist" comment="">
-      <change afterPath="$PROJECT_DIR$/pythonCookbook/part1/1.7-让字典保持有序.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/pythonCookbook/part1/1.8-与字典有关的计算问题.py" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
     </list>
     <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
@@ -21,6 +21,7 @@
     <SUITE FILE_PATH="coverage/pythonCookbook$2_11_.coverage" NAME="2.11-从字符串中去掉不需要的字符 Coverage Results" MODIFIED="1542460687780" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/pythonCookbook/part2" />
     <SUITE FILE_PATH="coverage/pythonCookbook$2_17_HTMLXML.coverage" NAME="2.17-在文本处理HTML和XML实体 Coverage Results" MODIFIED="1542720089507" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/pythonCookbook/part2" />
     <SUITE FILE_PATH="coverage/pythonCookbook$Shell.coverage" NAME="利用Shell通配符做字符串匹配 Coverage Results" MODIFIED="1542030113905" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/pythonCookbook/part2" />
+    <SUITE FILE_PATH="coverage/pythonCookbook$1_8_.coverage" NAME="1.8-与字典有关的计算问题 Coverage Results" MODIFIED="1543588117931" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/pythonCookbook/part1" />
     <SUITE FILE_PATH="coverage/pythonCookbook$2_7_.coverage" NAME="2.7-定义实现最短匹配的正则表达式 Coverage Results" MODIFIED="1542116910900" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/pythonCookbook/part2" />
     <SUITE FILE_PATH="coverage/pythonCookbook$1_2.coverage" NAME="1.2从任意长度的可迭代对象中分解元素 Coverage Results" MODIFIED="1542981471853" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/pythonCookbook/part1" />
     <SUITE FILE_PATH="coverage/pythonCookbook$2_8_.coverage" NAME="2.8-编写匹配多行模式的正则表达式 Coverage Results" MODIFIED="1542205203402" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/pythonCookbook/part2" />
@@ -39,12 +40,12 @@
     <session id="1535147010">
       <usages-collector id="statistics.lifecycle.project">
         <counts>
-          <entry key="project.closed" value="17" />
+          <entry key="project.closed" value="18" />
           <entry key="project.open.time.1" value="2" />
           <entry key="project.open.time.2" value="3" />
           <entry key="project.open.time.23" value="1" />
           <entry key="project.open.time.26" value="4" />
-          <entry key="project.open.time.28" value="2" />
+          <entry key="project.open.time.28" value="3" />
           <entry key="project.open.time.30" value="2" />
           <entry key="project.open.time.31" value="1" />
           <entry key="project.open.time.32" value="1" />
@@ -52,33 +53,33 @@
           <entry key="project.open.time.39" value="1" />
           <entry key="project.open.time.7" value="1" />
           <entry key="project.open.time.8" value="1" />
-          <entry key="project.opened" value="20" />
+          <entry key="project.opened" value="21" />
         </counts>
       </usages-collector>
       <usages-collector id="statistics.file.extensions.open">
         <counts>
-          <entry key="py" value="34" />
+          <entry key="py" value="35" />
           <entry key="txt" value="3" />
         </counts>
       </usages-collector>
       <usages-collector id="statistics.file.types.open">
         <counts>
           <entry key="PLAIN_TEXT" value="3" />
-          <entry key="Python" value="34" />
+          <entry key="Python" value="35" />
         </counts>
       </usages-collector>
       <usages-collector id="statistics.file.extensions.edit">
         <counts>
           <entry key="Python Console" value="15" />
           <entry key="dummy" value="19" />
-          <entry key="py" value="33248" />
-          <entry key="txt" value="591" />
+          <entry key="py" value="34590" />
+          <entry key="txt" value="598" />
         </counts>
       </usages-collector>
       <usages-collector id="statistics.file.types.edit">
         <counts>
-          <entry key="PLAIN_TEXT" value="610" />
-          <entry key="Python" value="33263" />
+          <entry key="PLAIN_TEXT" value="617" />
+          <entry key="Python" value="34605" />
         </counts>
       </usages-collector>
     </session>
@@ -86,10 +87,10 @@
   <component name="FileEditorManager">
     <leaf SIDE_TABS_SIZE_LIMIT_KEY="300">
       <file pinned="false" current-in-tab="true">
-        <entry file="file://$PROJECT_DIR$/pythonCookbook/part1/1.7-让字典保持有序.py">
+        <entry file="file://$PROJECT_DIR$/pythonCookbook/part1/1.8-与字典有关的计算问题.py">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="205">
-              <caret line="45" column="19" selection-start-line="45" selection-start-column="19" selection-end-line="45" selection-end-column="19" />
+            <state relative-caret-position="315">
+              <caret line="111" column="13" selection-start-line="111" selection-start-column="13" selection-end-line="111" selection-end-column="13" />
             </state>
           </provider>
         </entry>
@@ -138,6 +139,7 @@
         <option value="$PROJECT_DIR$/pythonCookbook/part1/1.5-实现优先级队列.py" />
         <option value="$PROJECT_DIR$/pythonCookbook/part1/1.6-在字典中将键映射到多个值上.py" />
         <option value="$PROJECT_DIR$/pythonCookbook/part1/1.7-让字典保持有序.py" />
+        <option value="$PROJECT_DIR$/pythonCookbook/part1/1.8-与字典有关的计算问题.py" />
       </list>
     </option>
   </component>
@@ -180,6 +182,7 @@
       <foldersAlwaysOnTop value="true" />
     </navigator>
     <panes>
+      <pane id="Scope" />
       <pane id="ProjectPane">
         <subPane>
           <expand>
@@ -209,7 +212,6 @@
           <select />
         </subPane>
       </pane>
-      <pane id="Scope" />
     </panes>
   </component>
   <component name="PropertiesComponent">
@@ -238,7 +240,7 @@
       </list>
     </option>
   </component>
-  <component name="RunManager" selected="Python.1.7-让字典保持有序">
+  <component name="RunManager" selected="Python.1.8-与字典有关的计算问题">
     <configuration name="针对任意多的分隔符拆分字符串" type="PythonConfigurationType" factoryName="Python">
       <module name="pythonCookbook" />
       <option name="INTERPRETER_OPTIONS" value="" />
@@ -253,28 +255,6 @@
       <option name="ADD_SOURCE_ROOTS" value="true" />
       <EXTENSION ID="PythonCoverageRunConfigurationExtension" runner="coverage.py" />
       <option name="SCRIPT_NAME" value="E:\pythonCookbook\pythonCookbook\part2\2.1-针对任意多的分隔符拆分字符串.py" />
-      <option name="PARAMETERS" value="" />
-      <option name="SHOW_COMMAND_LINE" value="false" />
-      <option name="EMULATE_TERMINAL" value="false" />
-      <option name="MODULE_MODE" value="false" />
-      <option name="REDIRECT_INPUT" value="false" />
-      <option name="INPUT_FILE" value="" />
-      <method v="2" />
-    </configuration>
-    <configuration name="1.3-保存最后N个元素" type="PythonConfigurationType" factoryName="Python" temporary="true">
-      <module name="pythonCookbook" />
-      <option name="INTERPRETER_OPTIONS" value="" />
-      <option name="PARENT_ENVS" value="true" />
-      <envs>
-        <env name="PYTHONUNBUFFERED" value="1" />
-      </envs>
-      <option name="SDK_HOME" value="" />
-      <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$/pythonCookbook/part1" />
-      <option name="IS_MODULE_SDK" value="true" />
-      <option name="ADD_CONTENT_ROOTS" value="true" />
-      <option name="ADD_SOURCE_ROOTS" value="true" />
-      <EXTENSION ID="PythonCoverageRunConfigurationExtension" runner="coverage.py" />
-      <option name="SCRIPT_NAME" value="$PROJECT_DIR$/pythonCookbook/part1/1.3-保存最后N个元素.py" />
       <option name="PARAMETERS" value="" />
       <option name="SHOW_COMMAND_LINE" value="false" />
       <option name="EMULATE_TERMINAL" value="false" />
@@ -371,6 +351,28 @@
       <option name="INPUT_FILE" value="" />
       <method v="2" />
     </configuration>
+    <configuration name="1.8-与字典有关的计算问题" type="PythonConfigurationType" factoryName="Python" temporary="true">
+      <module name="pythonCookbook" />
+      <option name="INTERPRETER_OPTIONS" value="" />
+      <option name="PARENT_ENVS" value="true" />
+      <envs>
+        <env name="PYTHONUNBUFFERED" value="1" />
+      </envs>
+      <option name="SDK_HOME" value="" />
+      <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$/pythonCookbook/part1" />
+      <option name="IS_MODULE_SDK" value="true" />
+      <option name="ADD_CONTENT_ROOTS" value="true" />
+      <option name="ADD_SOURCE_ROOTS" value="true" />
+      <EXTENSION ID="PythonCoverageRunConfigurationExtension" runner="coverage.py" />
+      <option name="SCRIPT_NAME" value="$PROJECT_DIR$/pythonCookbook/part1/1.8-与字典有关的计算问题.py" />
+      <option name="PARAMETERS" value="" />
+      <option name="SHOW_COMMAND_LINE" value="false" />
+      <option name="EMULATE_TERMINAL" value="false" />
+      <option name="MODULE_MODE" value="false" />
+      <option name="REDIRECT_INPUT" value="false" />
+      <option name="INPUT_FILE" value="" />
+      <method v="2" />
+    </configuration>
     <configuration name="文本模式的匹配和查找" type="PythonConfigurationType" factoryName="Python" temporary="true">
       <module name="pythonCookbook" />
       <option name="INTERPRETER_OPTIONS" value="" />
@@ -417,19 +419,19 @@
     </configuration>
     <list>
       <item itemvalue="Python.针对任意多的分隔符拆分字符串" />
-      <item itemvalue="Python.1.3-保存最后N个元素" />
       <item itemvalue="Python.1.4-找到最大或最小的N个元素" />
       <item itemvalue="Python.1.5-实现优先级队列" />
       <item itemvalue="Python.1.6-在字典中将键映射到多个值上" />
       <item itemvalue="Python.1.7-让字典保持有序" />
+      <item itemvalue="Python.1.8-与字典有关的计算问题" />
     </list>
     <recent_temporary>
       <list>
+        <item itemvalue="Python.1.8-与字典有关的计算问题" />
         <item itemvalue="Python.1.7-让字典保持有序" />
         <item itemvalue="Python.1.6-在字典中将键映射到多个值上" />
         <item itemvalue="Python.1.5-实现优先级队列" />
         <item itemvalue="Python.1.4-找到最大或最小的N个元素" />
-        <item itemvalue="Python.1.3-保存最后N个元素" />
       </list>
     </recent_temporary>
   </component>
@@ -619,7 +621,14 @@
       <option name="project" value="LOCAL" />
       <updated>1543409764473</updated>
     </task>
-    <option name="localTasksCounter" value="26" />
+    <task id="LOCAL-00026" summary="让字典保持有序">
+      <created>1543502029361</created>
+      <option name="number" value="00026" />
+      <option name="presentableId" value="LOCAL-00026" />
+      <option name="project" value="LOCAL" />
+      <updated>1543502029362</updated>
+    </task>
+    <option name="localTasksCounter" value="27" />
     <servers />
   </component>
   <component name="ToolWindowManager">
@@ -681,7 +690,8 @@
     <MESSAGE value="找到最大或最小的N个元素" />
     <MESSAGE value="实现优先级队列" />
     <MESSAGE value="在字典中将键映射到多个值上" />
-    <option name="LAST_COMMIT_MESSAGE" value="在字典中将键映射到多个值上" />
+    <MESSAGE value="让字典保持有序" />
+    <option name="LAST_COMMIT_MESSAGE" value="让字典保持有序" />
   </component>
   <component name="editorHistoryManager">
     <entry file="file://$PROJECT_DIR$/pythonCookbook/part2/2.1-针对任意多的分隔符拆分字符串.py">
@@ -880,8 +890,15 @@
     </entry>
     <entry file="file://$PROJECT_DIR$/pythonCookbook/part1/1.7-让字典保持有序.py">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="205">
-          <caret line="45" column="19" selection-start-line="45" selection-start-column="19" selection-end-line="45" selection-end-column="19" />
+        <state relative-caret-position="271">
+          <caret line="48" column="3" selection-start-line="48" selection-start-column="3" selection-end-line="48" selection-end-column="3" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/pythonCookbook/part1/1.8-与字典有关的计算问题.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="315">
+          <caret line="111" column="13" selection-start-line="111" selection-start-column="13" selection-end-line="111" selection-end-column="13" />
         </state>
       </provider>
     </entry>
