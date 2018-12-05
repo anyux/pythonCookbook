@@ -1,8 +1,8 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <project version="4">
   <component name="ChangeListManager">
-    <list default="true" id="e5220c65-a225-4fc2-83ed-9680149d7ef9" name="Default Changelist" comment="与字典有关的计算问题">
-      <change afterPath="$PROJECT_DIR$/pythonCookbook/part1/1.9-在两个字典中寻找相同点.py" afterDir="false" />
+    <list default="true" id="e5220c65-a225-4fc2-83ed-9680149d7ef9" name="Default Changelist" comment="">
+      <change afterPath="$PROJECT_DIR$/pythonCookbook/part1/1.10-从序列中移除重复项且保持元素顺序不变.py" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
     </list>
     <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
@@ -17,33 +17,34 @@
     <SUITE FILE_PATH="coverage/pythonCookbook$1_5_.coverage" NAME="1.5-实现优先级队列 Coverage Results" MODIFIED="1543325906111" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/pythonCookbook/part1" />
     <SUITE FILE_PATH="coverage/pythonCookbook$1_3_N.coverage" NAME="1.3-保存最后N个元素 Coverage Results" MODIFIED="1543061972004" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/pythonCookbook/part1" />
     <SUITE FILE_PATH="coverage/pythonCookbook$2_10_Unicode.coverage" NAME="2.10-用正则表达式处理Unicode字符 Coverage Results" MODIFIED="1542379058277" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/pythonCookbook/part2" />
-    <SUITE FILE_PATH="coverage/pythonCookbook$2_16_.coverage" NAME="2.16-以固定的列数重新格式化文本 Coverage Results" MODIFIED="1542717986521" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/pythonCookbook/part2" />
     <SUITE FILE_PATH="coverage/pythonCookbook$2_11_.coverage" NAME="2.11-从字符串中去掉不需要的字符 Coverage Results" MODIFIED="1542460687780" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/pythonCookbook/part2" />
-    <SUITE FILE_PATH="coverage/pythonCookbook$2_17_HTMLXML.coverage" NAME="2.17-在文本处理HTML和XML实体 Coverage Results" MODIFIED="1542720089507" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/pythonCookbook/part2" />
-    <SUITE FILE_PATH="coverage/pythonCookbook$Shell.coverage" NAME="利用Shell通配符做字符串匹配 Coverage Results" MODIFIED="1542030113905" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/pythonCookbook/part2" />
-    <SUITE FILE_PATH="coverage/pythonCookbook$1_8_.coverage" NAME="1.8-与字典有关的计算问题 Coverage Results" MODIFIED="1543588117931" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/pythonCookbook/part1" />
     <SUITE FILE_PATH="coverage/pythonCookbook$2_7_.coverage" NAME="2.7-定义实现最短匹配的正则表达式 Coverage Results" MODIFIED="1542116910900" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/pythonCookbook/part2" />
     <SUITE FILE_PATH="coverage/pythonCookbook$1_2.coverage" NAME="1.2从任意长度的可迭代对象中分解元素 Coverage Results" MODIFIED="1542981471853" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/pythonCookbook/part1" />
     <SUITE FILE_PATH="coverage/pythonCookbook$1_9_.coverage" NAME="1.9-在两个字典中寻找相同点 Coverage Results" MODIFIED="1543843535977" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/pythonCookbook/part1" />
+    <SUITE FILE_PATH="coverage/pythonCookbook$2_5_.coverage" NAME="2.5-查找和替换文本 Coverage Results" MODIFIED="1542114454276" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/pythonCookbook/part2" />
+    <SUITE FILE_PATH="coverage/pythonCookbook$2_14_.coverage" NAME="2.14-字符串连接及合并 Coverage Results" MODIFIED="1542636629580" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/pythonCookbook/part2" />
+    <SUITE FILE_PATH="coverage/pythonCookbook$1_7_.coverage" NAME="1.7-让字典保持有序 Coverage Results" MODIFIED="1543501637140" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/pythonCookbook/part1" />
+    <SUITE FILE_PATH="coverage/pythonCookbook$1_10_.coverage" NAME="1.10-从序列中移除重复项且保持元素顺序不变 Coverage Results" MODIFIED="1544015696465" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/pythonCookbook/part1" />
+    <SUITE FILE_PATH="coverage/pythonCookbook$2_16_.coverage" NAME="2.16-以固定的列数重新格式化文本 Coverage Results" MODIFIED="1542717986521" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/pythonCookbook/part2" />
+    <SUITE FILE_PATH="coverage/pythonCookbook$2_17_HTMLXML.coverage" NAME="2.17-在文本处理HTML和XML实体 Coverage Results" MODIFIED="1542720089507" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/pythonCookbook/part2" />
+    <SUITE FILE_PATH="coverage/pythonCookbook$Shell.coverage" NAME="利用Shell通配符做字符串匹配 Coverage Results" MODIFIED="1542030113905" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/pythonCookbook/part2" />
+    <SUITE FILE_PATH="coverage/pythonCookbook$1_8_.coverage" NAME="1.8-与字典有关的计算问题 Coverage Results" MODIFIED="1543588117931" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/pythonCookbook/part1" />
     <SUITE FILE_PATH="coverage/pythonCookbook$2_8_.coverage" NAME="2.8-编写匹配多行模式的正则表达式 Coverage Results" MODIFIED="1542205203402" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/pythonCookbook/part2" />
     <SUITE FILE_PATH="coverage/pythonCookbook$2_18_.coverage" NAME="2.18-文本分词 Coverage Results" MODIFIED="1542809494814" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/pythonCookbook/part2" />
-    <SUITE FILE_PATH="coverage/pythonCookbook$2_5_.coverage" NAME="2.5-查找和替换文本 Coverage Results" MODIFIED="1542114454276" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/pythonCookbook/part2" />
     <SUITE FILE_PATH="coverage/pythonCookbook$2_15_.coverage" NAME="2.15-给字符串中的变量名做插值处理 Coverage Results" MODIFIED="1542639553865" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/pythonCookbook/part2" />
     <SUITE FILE_PATH="coverage/pythonCookbook$1_1_.coverage" NAME="1.1-将序列分解为单独的变量 Coverage Results" MODIFIED="1542893355494" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/pythonCookbook/part1" />
     <SUITE FILE_PATH="coverage/pythonCookbook$1_6_.coverage" NAME="1.6-在字典中将键映射到多个值上 Coverage Results" MODIFIED="1543409676378" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/pythonCookbook/part1" />
     <SUITE FILE_PATH="coverage/pythonCookbook$1_4_N.coverage" NAME="1.4-找到最大或最小的N个元素 Coverage Results" MODIFIED="1543240093817" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/pythonCookbook/part1" />
     <SUITE FILE_PATH="coverage/pythonCookbook$2_6_.coverage" NAME="2.6-以不区分大小写的方式对文本做检查和替换 Coverage Results" MODIFIED="1542115508304" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/pythonCookbook/part2" />
-    <SUITE FILE_PATH="coverage/pythonCookbook$2_14_.coverage" NAME="2.14-字符串连接及合并 Coverage Results" MODIFIED="1542636629580" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/pythonCookbook/part2" />
     <SUITE FILE_PATH="coverage/pythonCookbook$.coverage" NAME="文本模式的匹配和查找 Coverage Results" MODIFIED="1542033179384" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/pythonCookbook/part2" />
-    <SUITE FILE_PATH="coverage/pythonCookbook$1_7_.coverage" NAME="1.7-让字典保持有序 Coverage Results" MODIFIED="1543501637140" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/pythonCookbook/part1" />
   </component>
   <component name="FUSProjectUsageTrigger">
     <session id="1535147010">
       <usages-collector id="statistics.lifecycle.project">
         <counts>
-          <entry key="project.closed" value="19" />
+          <entry key="project.closed" value="20" />
           <entry key="project.open.time.1" value="2" />
-          <entry key="project.open.time.2" value="3" />
+          <entry key="project.open.time.2" value="4" />
           <entry key="project.open.time.23" value="1" />
           <entry key="project.open.time.26" value="4" />
           <entry key="project.open.time.28" value="3" />
@@ -54,44 +55,57 @@
           <entry key="project.open.time.39" value="1" />
           <entry key="project.open.time.7" value="1" />
           <entry key="project.open.time.8" value="1" />
-          <entry key="project.opened" value="22" />
+          <entry key="project.opened" value="23" />
         </counts>
       </usages-collector>
       <usages-collector id="statistics.file.extensions.open">
         <counts>
-          <entry key="py" value="36" />
+          <entry key="py" value="37" />
           <entry key="txt" value="3" />
         </counts>
       </usages-collector>
       <usages-collector id="statistics.file.types.open">
         <counts>
           <entry key="PLAIN_TEXT" value="3" />
-          <entry key="Python" value="36" />
+          <entry key="Python" value="37" />
         </counts>
       </usages-collector>
       <usages-collector id="statistics.file.extensions.edit">
         <counts>
           <entry key="Python Console" value="15" />
           <entry key="dummy" value="19" />
-          <entry key="py" value="35442" />
-          <entry key="txt" value="608" />
+          <entry key="py" value="36676" />
+          <entry key="txt" value="619" />
         </counts>
       </usages-collector>
       <usages-collector id="statistics.file.types.edit">
         <counts>
-          <entry key="PLAIN_TEXT" value="627" />
-          <entry key="Python" value="35457" />
+          <entry key="PLAIN_TEXT" value="638" />
+          <entry key="Python" value="36691" />
         </counts>
       </usages-collector>
     </session>
   </component>
   <component name="FileEditorManager">
     <leaf SIDE_TABS_SIZE_LIMIT_KEY="300">
-      <file pinned="false" current-in-tab="true">
+      <file pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/pythonCookbook/part1/1.9-在两个字典中寻找相同点.py">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="448">
-              <caret line="72" column="57" selection-start-line="72" selection-start-column="57" selection-end-line="72" selection-end-column="57" />
+            <state relative-caret-position="140">
+              <caret line="61" column="3" selection-start-line="61" selection-start-column="3" selection-end-line="61" selection-end-column="3" />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file pinned="false" current-in-tab="true">
+        <entry file="file://$PROJECT_DIR$/pythonCookbook/part1/1.10-从序列中移除重复项且保持元素顺序不变.py">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="469">
+              <caret line="77" column="23" selection-start-line="77" selection-start-column="23" selection-end-line="77" selection-end-column="23" />
+              <folding>
+                <marker date="1544016055956" expanded="true" signature="298:494" ph="..." />
+                <marker date="1544016055956" expanded="true" signature="618:1480" ph="..." />
+              </folding>
             </state>
           </provider>
         </entry>
@@ -142,6 +156,7 @@
         <option value="$PROJECT_DIR$/pythonCookbook/part1/1.7-让字典保持有序.py" />
         <option value="$PROJECT_DIR$/pythonCookbook/part1/1.8-与字典有关的计算问题.py" />
         <option value="$PROJECT_DIR$/pythonCookbook/part1/1.9-在两个字典中寻找相同点.py" />
+        <option value="$PROJECT_DIR$/pythonCookbook/part1/1.10-从序列中移除重复项且保持元素顺序不变.py" />
       </list>
     </option>
   </component>
@@ -184,7 +199,6 @@
       <foldersAlwaysOnTop value="true" />
     </navigator>
     <panes>
-      <pane id="Scope" />
       <pane id="ProjectPane">
         <subPane>
           <expand>
@@ -203,17 +217,11 @@
               <item name="pythonCookbook" type="462c0819:PsiDirectoryNode" />
               <item name="part1" type="462c0819:PsiDirectoryNode" />
             </path>
-            <path>
-              <item name="pythonCookbook" type="b2602c69:ProjectViewProjectNode" />
-              <item name="pythonCookbook" type="462c0819:PsiDirectoryNode" />
-              <item name="pythonCookbook" type="462c0819:PsiDirectoryNode" />
-              <item name="part1" type="462c0819:PsiDirectoryNode" />
-              <item name="1.5-实现优先级队列.py" type="8704e2dd:PyFileNode" />
-            </path>
           </expand>
           <select />
         </subPane>
       </pane>
+      <pane id="Scope" />
     </panes>
   </component>
   <component name="PropertiesComponent">
@@ -243,7 +251,7 @@
       </list>
     </option>
   </component>
-  <component name="RunManager" selected="Python.1.9-在两个字典中寻找相同点">
+  <component name="RunManager" selected="Python.1.10-从序列中移除重复项且保持元素顺序不变">
     <configuration name="针对任意多的分隔符拆分字符串" type="PythonConfigurationType" factoryName="Python">
       <module name="pythonCookbook" />
       <option name="INTERPRETER_OPTIONS" value="" />
@@ -266,7 +274,7 @@
       <option name="INPUT_FILE" value="" />
       <method v="2" />
     </configuration>
-    <configuration name="1.5-实现优先级队列" type="PythonConfigurationType" factoryName="Python" temporary="true">
+    <configuration name="1.10-从序列中移除重复项且保持元素顺序不变" type="PythonConfigurationType" factoryName="Python" temporary="true">
       <module name="pythonCookbook" />
       <option name="INTERPRETER_OPTIONS" value="" />
       <option name="PARENT_ENVS" value="true" />
@@ -279,7 +287,7 @@
       <option name="ADD_CONTENT_ROOTS" value="true" />
       <option name="ADD_SOURCE_ROOTS" value="true" />
       <EXTENSION ID="PythonCoverageRunConfigurationExtension" runner="coverage.py" />
-      <option name="SCRIPT_NAME" value="$PROJECT_DIR$/pythonCookbook/part1/1.5-实现优先级队列.py" />
+      <option name="SCRIPT_NAME" value="$PROJECT_DIR$/pythonCookbook/part1/1.10-从序列中移除重复项且保持元素顺序不变.py" />
       <option name="PARAMETERS" value="" />
       <option name="SHOW_COMMAND_LINE" value="false" />
       <option name="EMULATE_TERMINAL" value="false" />
@@ -422,19 +430,19 @@
     </configuration>
     <list>
       <item itemvalue="Python.针对任意多的分隔符拆分字符串" />
-      <item itemvalue="Python.1.5-实现优先级队列" />
       <item itemvalue="Python.1.6-在字典中将键映射到多个值上" />
       <item itemvalue="Python.1.7-让字典保持有序" />
       <item itemvalue="Python.1.8-与字典有关的计算问题" />
       <item itemvalue="Python.1.9-在两个字典中寻找相同点" />
+      <item itemvalue="Python.1.10-从序列中移除重复项且保持元素顺序不变" />
     </list>
     <recent_temporary>
       <list>
+        <item itemvalue="Python.1.10-从序列中移除重复项且保持元素顺序不变" />
         <item itemvalue="Python.1.9-在两个字典中寻找相同点" />
         <item itemvalue="Python.1.8-与字典有关的计算问题" />
         <item itemvalue="Python.1.7-让字典保持有序" />
         <item itemvalue="Python.1.6-在字典中将键映射到多个值上" />
-        <item itemvalue="Python.1.5-实现优先级队列" />
       </list>
     </recent_temporary>
   </component>
@@ -638,7 +646,14 @@
       <option name="project" value="LOCAL" />
       <updated>1543588155795</updated>
     </task>
-    <option name="localTasksCounter" value="28" />
+    <task id="LOCAL-00028" summary="在两个字典中寻找相同点">
+      <created>1543844171191</created>
+      <option name="number" value="00028" />
+      <option name="presentableId" value="LOCAL-00028" />
+      <option name="project" value="LOCAL" />
+      <updated>1543844171191</updated>
+    </task>
+    <option name="localTasksCounter" value="29" />
     <servers />
   </component>
   <component name="ToolWindowManager">
@@ -676,7 +691,6 @@
     <option name="myLimit" value="2678400000" />
   </component>
   <component name="VcsManagerConfiguration">
-    <MESSAGE value="在字符串的开头或结尾做文本匹配" />
     <MESSAGE value="利用Shell通配符做字符串匹配" />
     <MESSAGE value="文本模式的匹配和查找" />
     <MESSAGE value="添加文件名称前缀" />
@@ -701,7 +715,8 @@
     <MESSAGE value="在字典中将键映射到多个值上" />
     <MESSAGE value="让字典保持有序" />
     <MESSAGE value="与字典有关的计算问题" />
-    <option name="LAST_COMMIT_MESSAGE" value="与字典有关的计算问题" />
+    <MESSAGE value="在两个字典中寻找相同点" />
+    <option name="LAST_COMMIT_MESSAGE" value="在两个字典中寻找相同点" />
   </component>
   <component name="editorHistoryManager">
     <entry file="file://$PROJECT_DIR$/pythonCookbook/part2/2.1-针对任意多的分隔符拆分字符串.py">
@@ -914,8 +929,19 @@
     </entry>
     <entry file="file://$PROJECT_DIR$/pythonCookbook/part1/1.9-在两个字典中寻找相同点.py">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="448">
-          <caret line="72" column="57" selection-start-line="72" selection-start-column="57" selection-end-line="72" selection-end-column="57" />
+        <state relative-caret-position="140">
+          <caret line="61" column="3" selection-start-line="61" selection-start-column="3" selection-end-line="61" selection-end-column="3" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/pythonCookbook/part1/1.10-从序列中移除重复项且保持元素顺序不变.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="469">
+          <caret line="77" column="23" selection-start-line="77" selection-start-column="23" selection-end-line="77" selection-end-column="23" />
+          <folding>
+            <marker date="1544016055956" expanded="true" signature="298:494" ph="..." />
+            <marker date="1544016055956" expanded="true" signature="618:1480" ph="..." />
+          </folding>
         </state>
       </provider>
     </entry>
