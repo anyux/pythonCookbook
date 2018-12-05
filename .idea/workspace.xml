@@ -2,8 +2,7 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="e5220c65-a225-4fc2-83ed-9680149d7ef9" name="Default Changelist" comment="">
-      <change afterPath="$PROJECT_DIR$/pythonCookbook/part1/1.11-对切片命名.py" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/pythonCookbook/part1/1.12-找出序列中出现次数最多的元素.py" afterDir="false" />
     </list>
     <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
     <option name="SHOW_DIALOG" value="false" />
@@ -25,6 +24,7 @@
     <SUITE FILE_PATH="coverage/pythonCookbook$2_5_.coverage" NAME="2.5-查找和替换文本 Coverage Results" MODIFIED="1542114454276" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/pythonCookbook/part2" />
     <SUITE FILE_PATH="coverage/pythonCookbook$2_14_.coverage" NAME="2.14-字符串连接及合并 Coverage Results" MODIFIED="1542636629580" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/pythonCookbook/part2" />
     <SUITE FILE_PATH="coverage/pythonCookbook$1_7_.coverage" NAME="1.7-让字典保持有序 Coverage Results" MODIFIED="1543501637140" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/pythonCookbook/part1" />
+    <SUITE FILE_PATH="coverage/pythonCookbook$1_12_.coverage" NAME="1.12-找出序列中出现次数最多的元素 Coverage Results" MODIFIED="1544019770239" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/pythonCookbook/part1" />
     <SUITE FILE_PATH="coverage/pythonCookbook$1_10_.coverage" NAME="1.10-从序列中移除重复项且保持元素顺序不变 Coverage Results" MODIFIED="1544015696465" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/pythonCookbook/part1" />
     <SUITE FILE_PATH="coverage/pythonCookbook$2_16_.coverage" NAME="2.16-以固定的列数重新格式化文本 Coverage Results" MODIFIED="1542717986521" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/pythonCookbook/part2" />
     <SUITE FILE_PATH="coverage/pythonCookbook$2_17_HTMLXML.coverage" NAME="2.17-在文本处理HTML和XML实体 Coverage Results" MODIFIED="1542720089507" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/pythonCookbook/part2" />
@@ -61,28 +61,30 @@
       </usages-collector>
       <usages-collector id="statistics.file.extensions.open">
         <counts>
-          <entry key="py" value="39" />
+          <entry key="py" value="41" />
+          <entry key="pyi" value="2" />
           <entry key="txt" value="3" />
         </counts>
       </usages-collector>
       <usages-collector id="statistics.file.types.open">
         <counts>
           <entry key="PLAIN_TEXT" value="3" />
-          <entry key="Python" value="39" />
+          <entry key="Python" value="41" />
+          <entry key="PythonStub" value="2" />
         </counts>
       </usages-collector>
       <usages-collector id="statistics.file.extensions.edit">
         <counts>
           <entry key="Python Console" value="15" />
           <entry key="dummy" value="19" />
-          <entry key="py" value="38014" />
-          <entry key="txt" value="640" />
+          <entry key="py" value="39097" />
+          <entry key="txt" value="646" />
         </counts>
       </usages-collector>
       <usages-collector id="statistics.file.types.edit">
         <counts>
-          <entry key="PLAIN_TEXT" value="659" />
-          <entry key="Python" value="38029" />
+          <entry key="PLAIN_TEXT" value="665" />
+          <entry key="Python" value="39112" />
         </counts>
       </usages-collector>
     </session>
@@ -90,19 +92,19 @@
   <component name="FileEditorManager">
     <leaf SIDE_TABS_SIZE_LIMIT_KEY="300">
       <file pinned="false" current-in-tab="true">
-        <entry file="file://$PROJECT_DIR$/pythonCookbook/part1/1.11-对切片命名.py">
+        <entry file="file://$PROJECT_DIR$/pythonCookbook/part1/1.12-找出序列中出现次数最多的元素.py">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="308">
-              <caret line="89" lean-forward="true" selection-start-line="89" selection-end-line="89" />
+            <state relative-caret-position="267">
+              <caret line="87" column="6" selection-start-line="87" selection-start-column="6" selection-end-line="87" selection-end-column="6" />
             </state>
           </provider>
         </entry>
       </file>
       <file pinned="false" current-in-tab="false">
-        <entry file="file://$USER_HOME$/.PyCharm2018.2/system/python_stubs/-1104749448/builtins.py">
+        <entry file="file://F:/python/Lib/collections/__init__.py">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="144">
-              <caret line="4528" column="8" selection-start-line="4528" selection-start-column="8" selection-end-line="4528" selection-end-column="8" />
+            <state relative-caret-position="-474">
+              <caret line="472" column="49" lean-forward="true" selection-start-line="472" selection-start-column="49" selection-end-line="472" selection-end-column="49" />
             </state>
           </provider>
         </entry>
@@ -155,6 +157,7 @@
         <option value="$PROJECT_DIR$/pythonCookbook/part1/1.9-在两个字典中寻找相同点.py" />
         <option value="$PROJECT_DIR$/pythonCookbook/part1/1.10-从序列中移除重复项且保持元素顺序不变.py" />
         <option value="$PROJECT_DIR$/pythonCookbook/part1/1.11-对切片命名.py" />
+        <option value="$PROJECT_DIR$/pythonCookbook/part1/1.12-找出序列中出现次数最多的元素.py" />
       </list>
     </option>
   </component>
@@ -222,6 +225,36 @@
               <item name="part1" type="462c0819:PsiDirectoryNode" />
               <item name="1.10-从序列中移除重复项且保持元素顺序不变.py" type="8704e2dd:PyFileNode" />
             </path>
+            <path>
+              <item name="pythonCookbook" type="b2602c69:ProjectViewProjectNode" />
+              <item name="External Libraries" type="cb654da1:ExternalLibrariesNode" />
+            </path>
+            <path>
+              <item name="pythonCookbook" type="b2602c69:ProjectViewProjectNode" />
+              <item name="External Libraries" type="cb654da1:ExternalLibrariesNode" />
+              <item name="&lt; Python 3.6 &gt;" type="70bed36:NamedLibraryElementNode" />
+            </path>
+            <path>
+              <item name="pythonCookbook" type="b2602c69:ProjectViewProjectNode" />
+              <item name="External Libraries" type="cb654da1:ExternalLibrariesNode" />
+              <item name="&lt; Python 3.6 &gt;" type="70bed36:NamedLibraryElementNode" />
+              <item name="Typeshed Stubs" type="9c07c3ae:PyTypeShedNode" />
+            </path>
+            <path>
+              <item name="pythonCookbook" type="b2602c69:ProjectViewProjectNode" />
+              <item name="External Libraries" type="cb654da1:ExternalLibrariesNode" />
+              <item name="&lt; Python 3.6 &gt;" type="70bed36:NamedLibraryElementNode" />
+              <item name="Typeshed Stubs" type="9c07c3ae:PyTypeShedNode" />
+              <item name="3" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="pythonCookbook" type="b2602c69:ProjectViewProjectNode" />
+              <item name="External Libraries" type="cb654da1:ExternalLibrariesNode" />
+              <item name="&lt; Python 3.6 &gt;" type="70bed36:NamedLibraryElementNode" />
+              <item name="Typeshed Stubs" type="9c07c3ae:PyTypeShedNode" />
+              <item name="3" type="462c0819:PsiDirectoryNode" />
+              <item name="collections" type="462c0819:PsiDirectoryNode" />
+            </path>
           </expand>
           <select />
         </subPane>
@@ -256,7 +289,7 @@
       </list>
     </option>
   </component>
-  <component name="RunManager" selected="Python.1.11-对切片命名">
+  <component name="RunManager" selected="Python.1.12-找出序列中出现次数最多的元素">
     <configuration name="针对任意多的分隔符拆分字符串" type="PythonConfigurationType" factoryName="Python">
       <module name="pythonCookbook" />
       <option name="INTERPRETER_OPTIONS" value="" />
@@ -323,7 +356,7 @@
       <option name="INPUT_FILE" value="" />
       <method v="2" />
     </configuration>
-    <configuration name="1.7-让字典保持有序" type="PythonConfigurationType" factoryName="Python" temporary="true">
+    <configuration name="1.12-找出序列中出现次数最多的元素" type="PythonConfigurationType" factoryName="Python" temporary="true">
       <module name="pythonCookbook" />
       <option name="INTERPRETER_OPTIONS" value="" />
       <option name="PARENT_ENVS" value="true" />
@@ -336,7 +369,7 @@
       <option name="ADD_CONTENT_ROOTS" value="true" />
       <option name="ADD_SOURCE_ROOTS" value="true" />
       <EXTENSION ID="PythonCoverageRunConfigurationExtension" runner="coverage.py" />
-      <option name="SCRIPT_NAME" value="$PROJECT_DIR$/pythonCookbook/part1/1.7-让字典保持有序.py" />
+      <option name="SCRIPT_NAME" value="$PROJECT_DIR$/pythonCookbook/part1/1.12-找出序列中出现次数最多的元素.py" />
       <option name="PARAMETERS" value="" />
       <option name="SHOW_COMMAND_LINE" value="false" />
       <option name="EMULATE_TERMINAL" value="false" />
@@ -435,19 +468,19 @@
     </configuration>
     <list>
       <item itemvalue="Python.针对任意多的分隔符拆分字符串" />
-      <item itemvalue="Python.1.7-让字典保持有序" />
       <item itemvalue="Python.1.8-与字典有关的计算问题" />
       <item itemvalue="Python.1.9-在两个字典中寻找相同点" />
       <item itemvalue="Python.1.10-从序列中移除重复项且保持元素顺序不变" />
       <item itemvalue="Python.1.11-对切片命名" />
+      <item itemvalue="Python.1.12-找出序列中出现次数最多的元素" />
     </list>
     <recent_temporary>
       <list>
+        <item itemvalue="Python.1.12-找出序列中出现次数最多的元素" />
         <item itemvalue="Python.1.11-对切片命名" />
         <item itemvalue="Python.1.10-从序列中移除重复项且保持元素顺序不变" />
         <item itemvalue="Python.1.9-在两个字典中寻找相同点" />
         <item itemvalue="Python.1.8-与字典有关的计算问题" />
-        <item itemvalue="Python.1.7-让字典保持有序" />
       </list>
     </recent_temporary>
   </component>
@@ -665,7 +698,14 @@
       <option name="project" value="LOCAL" />
       <updated>1544016207951</updated>
     </task>
-    <option name="localTasksCounter" value="30" />
+    <task id="LOCAL-00030" summary="对切片命名">
+      <created>1544018752049</created>
+      <option name="number" value="00030" />
+      <option name="presentableId" value="LOCAL-00030" />
+      <option name="project" value="LOCAL" />
+      <updated>1544018752049</updated>
+    </task>
+    <option name="localTasksCounter" value="31" />
     <servers />
   </component>
   <component name="ToolWindowManager">
@@ -703,7 +743,6 @@
     <option name="myLimit" value="2678400000" />
   </component>
   <component name="VcsManagerConfiguration">
-    <MESSAGE value="文本模式的匹配和查找" />
     <MESSAGE value="添加文件名称前缀" />
     <MESSAGE value="查找和替换文本" />
     <MESSAGE value="以不区分大小写的形式对文本做检查和替换" />
@@ -728,7 +767,8 @@
     <MESSAGE value="与字典有关的计算问题" />
     <MESSAGE value="在两个字典中寻找相同点" />
     <MESSAGE value="从序列中移除重复项且保持元素顺序不变" />
-    <option name="LAST_COMMIT_MESSAGE" value="从序列中移除重复项且保持元素顺序不变" />
+    <MESSAGE value="对切片命名" />
+    <option name="LAST_COMMIT_MESSAGE" value="对切片命名" />
   </component>
   <component name="editorHistoryManager">
     <entry file="file://$PROJECT_DIR$/pythonCookbook/part2/2.1-针对任意多的分隔符拆分字符串.py">
@@ -959,8 +999,32 @@
     </entry>
     <entry file="file://$PROJECT_DIR$/pythonCookbook/part1/1.11-对切片命名.py">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="308">
-          <caret line="89" lean-forward="true" selection-start-line="89" selection-end-line="89" />
+        <state relative-caret-position="110">
+          <caret line="88" column="3" lean-forward="true" selection-start-line="88" selection-start-column="3" selection-end-line="88" selection-end-column="3" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$APPLICATION_HOME_DIR$/helpers/typeshed/stdlib/3/collections/abc.pyi">
+      <provider selected="true" editor-type-id="text-editor" />
+    </entry>
+    <entry file="file://$APPLICATION_HOME_DIR$/helpers/typeshed/stdlib/3/collections/__init__.pyi">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="198">
+          <caret line="38" column="27" lean-forward="true" selection-start-line="38" selection-start-column="27" selection-end-line="38" selection-end-column="27" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://F:/python/Lib/collections/__init__.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="-474">
+          <caret line="472" column="49" lean-forward="true" selection-start-line="472" selection-start-column="49" selection-end-line="472" selection-end-column="49" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/pythonCookbook/part1/1.12-找出序列中出现次数最多的元素.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="267">
+          <caret line="87" column="6" selection-start-line="87" selection-start-column="6" selection-end-line="87" selection-end-column="6" />
         </state>
       </provider>
     </entry>
