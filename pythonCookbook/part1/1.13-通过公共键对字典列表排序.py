@@ -80,6 +80,7 @@ print(min(rows,key=itemgetter('lname')))
 '''
 {'fname': 'Big', 'lname': 'Jones', 'uid': 1004}
 {'fname': 'David', 'lname': 'Beazley', 'uid': 1002}
+
 '''
 
 
