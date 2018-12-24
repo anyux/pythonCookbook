@@ -2,10 +2,7 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="e5220c65-a225-4fc2-83ed-9680149d7ef9" name="Default Changelist" comment="Working with Binary,Octal,and Hexadecimal Integers">
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/pythonCookbook/part3/3.4-Working with Binary,Octal,and Hexadecimal Integers.py" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/pythonCookbook/part1/1.19-.py" afterPath="" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/.idea/misc.xml" afterPath="$PROJECT_DIR$/.idea/misc.xml" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/.idea/pythonCookbook.iml" afterPath="$PROJECT_DIR$/.idea/pythonCookbook.iml" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/pythonCookbook/part3/3.5-Packing and Unpacking Large Integers from Bytes.py" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/.idea/workspace.xml" afterPath="$PROJECT_DIR$/.idea/workspace.xml" />
     </list>
     <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
@@ -82,25 +79,11 @@
   </component>
   <component name="FileEditorManager">
     <leaf SIDE_TABS_SIZE_LIMIT_KEY="300">
-      <file leaf-file-name="3.3-Formatting Numbers for Output.py" pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/pythonCookbook/part3/3.3-Formatting Numbers for Output.py">
+      <file leaf-file-name="3.5-Packing and Unpacking Large Integers from Bytes.py" pinned="false" current-in-tab="true">
+        <entry file="file://$PROJECT_DIR$/pythonCookbook/part3/3.5-Packing and Unpacking Large Integers from Bytes.py">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="0">
-              <caret line="149" column="123" lean-forward="false" selection-start-line="149" selection-start-column="123" selection-end-line="149" selection-end-column="123" />
-              <folding>
-                <element signature="n#!!doc" expanded="false" />
-                <element signature="e#90#243#1" expanded="false" />
-                <element signature="e#244#347#1" expanded="false" />
-              </folding>
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file leaf-file-name="3.4-Working with Binary,Octal,and Hexadecimal Integers.py" pinned="false" current-in-tab="true">
-        <entry file="file://$PROJECT_DIR$/pythonCookbook/part3/3.4-Working with Binary,Octal,and Hexadecimal Integers.py">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="362">
-              <caret line="62" column="0" lean-forward="true" selection-start-line="62" selection-start-column="0" selection-end-line="62" selection-end-column="0" />
+            <state relative-caret-position="396">
+              <caret line="98" column="0" lean-forward="true" selection-start-line="98" selection-start-column="0" selection-end-line="98" selection-end-column="0" />
               <folding />
             </state>
           </provider>
@@ -141,6 +124,7 @@
         <option value="$PROJECT_DIR$/pythonCookbook/part3/3.2-Performing Accurate Decimal Calculations.py" />
         <option value="$PROJECT_DIR$/pythonCookbook/part3/3.3-Formatting Numbers for Output.py" />
         <option value="$PROJECT_DIR$/pythonCookbook/part3/3.4-Working with Binary,Octal,and Hexadecimal Integers.py" />
+        <option value="$PROJECT_DIR$/pythonCookbook/part3/3.5-Packing and Unpacking Large Integers from Bytes.py" />
       </list>
     </option>
   </component>
@@ -178,7 +162,7 @@
     <ConfirmationsSetting value="2" id="Add" />
   </component>
   <component name="ProjectView">
-    <navigator currentView="ProjectPane" proportions="" version="1">
+    <navigator proportions="" version="1">
       <flattenPackages />
       <showMembers />
       <showModules />
@@ -191,32 +175,7 @@
       <manualOrder />
       <foldersAlwaysOnTop value="true" />
     </navigator>
-    <panes>
-      <pane id="Scope" />
-      <pane id="ProjectPane">
-        <subPane>
-          <expand>
-            <path>
-              <item name="pythonCookbook" type="b2602c69:ProjectViewProjectNode" />
-              <item name="pythonCookbook" type="462c0819:PsiDirectoryNode" />
-            </path>
-            <path>
-              <item name="pythonCookbook" type="b2602c69:ProjectViewProjectNode" />
-              <item name="pythonCookbook" type="462c0819:PsiDirectoryNode" />
-              <item name="pythonCookbook" type="462c0819:PsiDirectoryNode" />
-            </path>
-            <path>
-              <item name="pythonCookbook" type="b2602c69:ProjectViewProjectNode" />
-              <item name="pythonCookbook" type="462c0819:PsiDirectoryNode" />
-              <item name="pythonCookbook" type="462c0819:PsiDirectoryNode" />
-              <item name="part3" type="462c0819:PsiDirectoryNode" />
-            </path>
-          </expand>
-          <select />
-        </subPane>
-      </pane>
-      <pane id="Scratches" />
-    </panes>
+    <panes />
   </component>
   <component name="PropertiesComponent">
     <property name="WebServerToolWindowFactoryState" value="false" />
@@ -639,7 +598,14 @@
       <option name="project" value="LOCAL" />
       <updated>1545280102536</updated>
     </task>
-    <option name="localTasksCounter" value="31" />
+    <task id="LOCAL-00031" summary="Working with Binary,Octal,and Hexadecimal Integers">
+      <created>1545554384132</created>
+      <option name="number" value="00031" />
+      <option name="presentableId" value="LOCAL-00031" />
+      <option name="project" value="LOCAL" />
+      <updated>1545554384132</updated>
+    </task>
+    <option name="localTasksCounter" value="32" />
     <servers />
   </component>
   <component name="ToolWindowManager">
@@ -676,7 +642,6 @@
     <option name="myLimit" value="2678400000" />
   </component>
   <component name="VcsManagerConfiguration">
-    <MESSAGE value="添加文件名称前缀" />
     <MESSAGE value="查找和替换文本" />
     <MESSAGE value="以不区分大小写的形式对文本做检查和替换" />
     <MESSAGE value="定义实现最短匹配的正则表达式" />
@@ -701,22 +666,19 @@
     <MESSAGE value="通过公共键对字典列表排序" />
     <MESSAGE value="Performing Accurate Decimal Calculatinos" />
     <MESSAGE value="Formatting Numbers for Output" />
-    <option name="LAST_COMMIT_MESSAGE" value="Formatting Numbers for Output" />
+    <MESSAGE value="Working with Binary,Octal,and Hexadecimal Integers" />
+    <option name="LAST_COMMIT_MESSAGE" value="Working with Binary,Octal,and Hexadecimal Integers" />
   </component>
   <component name="XDebuggerManager">
     <breakpoint-manager />
     <watches-manager />
   </component>
   <component name="editorHistoryManager">
-    <entry file="file://$PROJECT_DIR$/pythonCookbook/part3/3.3-Formatting Numbers for Output.py">
+    <entry file="file://$PROJECT_DIR$/pythonCookbook/part3/3.5-Packing and Unpacking Large Integers from Bytes.py">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="0">
           <caret line="0" column="0" lean-forward="false" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
-          <folding>
-            <element signature="n#!!doc" expanded="false" />
-            <element signature="e#90#243#1" expanded="false" />
-            <element signature="e#244#347#1" expanded="false" />
-          </folding>
+          <folding />
         </state>
       </provider>
     </entry>
@@ -724,11 +686,13 @@
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="0">
           <caret line="0" column="0" lean-forward="false" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
-          <folding>
-            <element signature="n#!!doc" expanded="false" />
-            <element signature="e#90#243#1" expanded="false" />
-            <element signature="e#244#347#1" expanded="false" />
-          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/pythonCookbook/part3/3.3-Formatting Numbers for Output.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="0">
+          <caret line="0" column="0" lean-forward="false" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
         </state>
       </provider>
     </entry>
@@ -986,22 +950,24 @@
         </state>
       </provider>
     </entry>
+    <entry file="file://$PROJECT_DIR$/pythonCookbook/part3/3.4-Working with Binary,Octal,and Hexadecimal Integers.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="393">
+          <caret line="62" column="0" lean-forward="true" selection-start-line="62" selection-start-column="0" selection-end-line="62" selection-end-column="0" />
+        </state>
+      </provider>
+    </entry>
     <entry file="file://$PROJECT_DIR$/pythonCookbook/part3/3.3-Formatting Numbers for Output.py">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="0">
           <caret line="149" column="123" lean-forward="false" selection-start-line="149" selection-start-column="123" selection-end-line="149" selection-end-column="123" />
-          <folding>
-            <element signature="n#!!doc" expanded="false" />
-            <element signature="e#90#243#1" expanded="false" />
-            <element signature="e#244#347#1" expanded="false" />
-          </folding>
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/pythonCookbook/part3/3.4-Working with Binary,Octal,and Hexadecimal Integers.py">
+    <entry file="file://$PROJECT_DIR$/pythonCookbook/part3/3.5-Packing and Unpacking Large Integers from Bytes.py">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="362">
-          <caret line="62" column="0" lean-forward="true" selection-start-line="62" selection-start-column="0" selection-end-line="62" selection-end-column="0" />
+        <state relative-caret-position="396">
+          <caret line="98" column="0" lean-forward="true" selection-start-line="98" selection-start-column="0" selection-end-line="98" selection-end-column="0" />
           <folding />
         </state>
       </provider>
